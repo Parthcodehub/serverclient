@@ -76,10 +76,6 @@ class loginform(QtWidgets.QMainWindow,form_class):
                 # time.sleep(1)
                 return self.rg()
         return j
-    def pf3(self):
-        pass
-    def pf4(self):
-        pass
 app = QtWidgets.QApplication(sys.argv)
 windoww=loginform(None)
 windoww.show()
